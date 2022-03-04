@@ -34,9 +34,9 @@ Or After installing needed modules, just run the server as it was shown above, i
 By Default it will start on : http://127.0.0.1:8000/
 
 ## Examples
-Generally we have home page, where we can submit image and see result after pressing "submit" button:
+Generally we have home page, where you can submit image and see result after pressing "submit" button:
 ![image](https://user-images.githubusercontent.com/80217865/156741755-9fcc20f4-45a2-436c-bb7c-4403da9bacb1.png)
 
-Also we have "history" page, where we can see previously loaded images and results:
+Also we have "history" page, where you can see previously loaded images and results:
 ![image](https://user-images.githubusercontent.com/80217865/156741905-86a79da4-f2b7-4ce4-a36f-9da8e504c2e9.png)
 
