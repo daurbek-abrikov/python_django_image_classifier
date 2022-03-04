@@ -1,0 +1,12 @@
+{% extends "img_cnn/base.html" %}
+{% block content%}
+
+{% for i in res %}
+<div class="col-md-4 col-sm-4">
+    <img src={{i.image}} width="250px" height="auto">
+    <h3> Class name: {{i.name}}</h3> <br>
+</div>
+<br>
+{% endfor%}
+
+{% endblock %}

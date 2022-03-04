@@ -1,0 +1,9 @@
+Django==4.0.2
+django_heroku==0.3.1
+keras==2.8.0
+numpy==1.22.2
+SQLAlchemy==1.4.26
+tensorflow_cpu==2.8.0
+gunicorn==19.9.0
+Pillow==9.0.1
+Keras-Preprocessing==1.1.2

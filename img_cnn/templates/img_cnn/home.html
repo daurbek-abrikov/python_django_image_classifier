@@ -1,0 +1,30 @@
+{% extends "img_cnn/base.html" %}
+{% block content %}
+<article class="media content-section">
+  <div class="media-body">
+      <h3>Upload Image and Neural Network will try to predict what class it belongs to</h3>
+      <br>
+
+      <form method="post" enctype="multipart/form-data" action="prediction/">
+  
+      {% csrf_token %}
+      <div class="col-md-4 col-sm-4"><label for="fname">Upload Image File Here:</label> </div> <input name="filePath" type="file"><br><br>
+      <br>
+      <input type="submit" value="Submit" ></div>
+
+      <div class="col-md-1"></div>
+      {% if filePathName%}
+        <div class="col-md-4 col-sm-4">
+          <h2>The classification of the image is {{result}} </h2>
+          <img width="250px" height="auto" src={{filePathName}} alt='imagename'>
+          {{filePathName}}
+        </div>
+      {% endif %}
+      
+
+
+      </form>
+      <br>
+  </div>
+</article>
+{% endblock content %}
