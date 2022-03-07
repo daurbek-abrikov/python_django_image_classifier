@@ -22,8 +22,8 @@ and it will install all needed libraries.
 * ### PostgreSQL Database [Download](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
 * ### To run the server
-```python $ cd img_classifier```
-```python $ python manage.py runserver```
+```cd img_classifier```
+```python manage.py runserver```
 
 ## Usage
 You can access directly to the website by this link:
